@@ -1,0 +1,30 @@
+{
+  "name": "full-stack-test",
+  "version": "1.0.0",
+  "description": "an full stack Mean Application",
+  "main": "index.ts",
+  "start": "index.ts",
+  "scripts": {
+    "test": "index.html",
+    "start": "node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirubakaran-Z/Mean-Stack-Assignment.git"
+  },
+  "author": "Kirubakaran Durai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirubakaran-Z/FULL-STACK-Test/issues"
+  },
+  "homepage": "https://github.com/kirubakaran-Z/FULL-STACK-Test#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18"
+  }
+}
