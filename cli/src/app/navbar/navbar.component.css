@@ -1,5 +1,5 @@
 nav {
-  background: rgb(75, 194, 52);
+  background: rgb(6, 145, 47);
   position: fixed;
   width: 100%;
   display: flex;
@@ -12,7 +12,8 @@ ul {
   display: flex;
   gap: 40px;
 }
-ul li {
+ul li,
+ul li a {
   list-style: none;
   color: #fff;
   font-size: 18px;
@@ -21,7 +22,7 @@ ul li {
   transition: 0.6s;
 }
 ul li:hover {
-  background: rgb(52, 194, 187);
+  background: rgb(75, 194, 52);
   color: rgb(70, 66, 66);
 }
 .login-button {
@@ -36,11 +37,14 @@ ul li:hover {
   font-weight: 500;
   transition: 0.6s;
   outline: solid rgb(109, 105, 105) 2px;
-  background: rgb(52, 194, 187);
+  background: rgb(75, 194, 52);
   color: rgb(70, 66, 66);
 }
 .login-button:hover {
   background: rgb(109, 105, 105);
   color: rgb(75, 194, 52);
   outline: none;
+}
+a {
+  text-decoration: none;
 }
