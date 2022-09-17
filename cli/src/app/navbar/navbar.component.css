@@ -1,0 +1,46 @@
+nav {
+  background: rgb(75, 194, 52);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-self: fle;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+ul {
+  display: flex;
+  gap: 40px;
+}
+ul li {
+  list-style: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  transition: 0.6s;
+}
+ul li:hover {
+  background: rgb(52, 194, 187);
+  color: rgb(70, 66, 66);
+}
+.login-button {
+  align-self: center;
+  margin-right: 20px;
+  width: fit-content;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  transition: 0.6s;
+  outline: solid rgb(109, 105, 105) 2px;
+  background: rgb(52, 194, 187);
+  color: rgb(70, 66, 66);
+}
+.login-button:hover {
+  background: rgb(109, 105, 105);
+  color: rgb(75, 194, 52);
+  outline: none;
+}

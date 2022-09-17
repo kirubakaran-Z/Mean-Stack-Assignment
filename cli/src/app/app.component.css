@@ -1,0 +1,8 @@
+.Cli-app {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(73, 71, 71);
+}

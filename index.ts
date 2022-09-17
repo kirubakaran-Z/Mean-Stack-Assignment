@@ -1,4 +1,7 @@
+//importing required npm packages
 const express = require("express");
+
+//declaring ex
 const app = express();
 const port = 3000;
 
