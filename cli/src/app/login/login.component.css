@@ -71,3 +71,6 @@ mat-error {
   width: 100%;
   font-size: 12px;
 }
+simple-snack-bar {
+  background: red;
+}

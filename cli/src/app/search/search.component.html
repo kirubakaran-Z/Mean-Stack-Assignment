@@ -15,7 +15,7 @@
         <li *ngFor="let post of posts">
           <div class="poster">
             <img src="{{ post.Poster }}" />
-            <span>{{ post.Title }}</span>
+            <span>{{ post.Title }} {{ post.Year }}</span>
           </div>
         </li>
       </ul>
