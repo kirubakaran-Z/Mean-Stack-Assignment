@@ -9,8 +9,13 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
+app.use(express.static("public"));
+//set views
+app.set("views", "./public");
+app.set("view engine", "ejs");
+
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.render("./index.html");
 });
 //start listen to port
 const server = app.listen(process.env.port || 80, () => {
