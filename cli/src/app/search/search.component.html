@@ -1,0 +1,24 @@
+<div class="search-Page">
+  <div class="top-bar">
+    <h1>Find your Movie</h1>
+    <div class="Search-bar">
+      <input type="text" [(ngModel)]="SearchKey" placeholder="Search" />
+      <button (click)="searchMovie()">Search</button>
+    </div>
+  </div>
+  <div>
+    <div class="usermessage">
+      <h3>{{ userMessage }}</h3>
+    </div>
+    <div *ngIf="gotresponse" class="viewer">
+      <ul class="list-group">
+        <li *ngFor="let post of posts">
+          <div class="poster">
+            <img src="{{ post.Poster }}" />
+            <span>{{ post.Title }}</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
