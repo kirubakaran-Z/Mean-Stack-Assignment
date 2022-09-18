@@ -8,13 +8,14 @@
   background: rgba(255, 255, 255, 0.37);
   backdrop-filter: blur(5px);
   padding: 20px;
+  width: 300px;
   border-radius: 15px;
   box-shadow: 10px 10px 15px #000;
 }
 form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }
@@ -23,15 +24,23 @@ form h3 {
   font-size: 26px;
   margin: 0px;
 }
-.form-group input {
-  padding: 8px 5px;
-  margin: 5px 0;
-  min-width: 200px;
+mat-form-field div {
+  outline: none;
+  border: none;
+}
+mat-form-field input {
+  outline: none;
+  padding: 10px;
   border: none;
   border-radius: 5px;
+  /* background: rgb(212, 201, 201); */
   box-shadow: inset 2px 2px 5px #000;
+  margin-top: 5px;
 }
-.form-group input:focus {
+mat-form-field input::placeholder {
+  color: #000;
+}
+mat-form-field input:focus {
   outline: none;
 }
 .form-group button {
@@ -54,4 +63,11 @@ form h3 {
   background: rgb(109, 105, 105);
   color: rgb(75, 194, 52);
   outline: none;
+}
+mat-error {
+  color: rgb(201, 41, 13);
+  margin: 2px;
+  z-index: 10;
+  width: 100%;
+  font-size: 12px;
 }
